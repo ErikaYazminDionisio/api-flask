@@ -16,7 +16,7 @@ def home():
 @cross_origin
 @app.route('/imagen',methods=['GET'])
 def image():
-    return send_file('./correos.jpg',attachment_filename='correos.jpg')
+    return send_file('./Correos.jpg',attachment_filename='Correos.jpg')
 
 @cross_origin
 @app.route('/prediccion',methods=['GET'])
